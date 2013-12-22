@@ -76,7 +76,7 @@ songs=[]
 position=0
 
 #manage input
-for line in fileinput.input('songs.txt'):
+for line in fileinput.input():
     if (position==0):
         input_attrs = line.split(' ') 
         n=int(input_attrs[0])
